@@ -1217,8 +1217,3 @@ li {
   height: 16px;
 }
 
-@media screen and (min-width: 768px) {
-  .backdrop {
-      display: none;
-  }
-}
