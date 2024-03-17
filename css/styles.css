@@ -471,9 +471,11 @@ button {
 .page-title-team {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 72px;
-}
 
+}
+.page-title-team:not(:last-child) {
+  margin-bottom: 72px
+}
 @media screen and (min-width: 768px) {
   .menu-title {
     display: flex;
@@ -482,6 +484,9 @@ button {
     justify-content: center;
     align-content: center;
     margin-right: 0;
+  }
+  .page-title-team:not(:last-child) {
+    margin-bottom: 0px
   }
   .page-title-team {
     margin: 0;
