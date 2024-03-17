@@ -645,7 +645,6 @@ button {
     padding-left: 92px;
   }
   .footer-container {
-    margin-right: 24px;
     display: block;
     max-width: 264px;
     margin-bottom: 0px
@@ -701,7 +700,6 @@ button {
 }
 @media screen and (min-width: 768px) {
   .icon-conteiner {
-    margin-right: 80px;
     margin-bottom: 0px;
   }
 }
@@ -905,7 +903,6 @@ button {
     font-weight: 500;
     font-size: 16px;
     color: #fff;
-    margin-bottom: 16px;
     letter-spacing: 0.02em;
   }
   
