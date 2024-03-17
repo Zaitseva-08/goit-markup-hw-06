@@ -1190,6 +1190,12 @@ button {
   .menu-container {
     display: none;
   }
+  .check-link {
+    left: 0px
+  }
+  .privacy {
+    top: 0px
+  }
 }
 
 .send-btn:hover,
@@ -1298,12 +1304,17 @@ li {
 address {
   display: block;
   font-style: italic;
+  
+}
+
+.menu-address {
+  margin-bottom: 48px;
 }
 .menu-address-list {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 48px;
+  
 }
 
 *,
